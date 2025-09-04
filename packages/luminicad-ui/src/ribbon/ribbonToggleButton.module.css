@@ -1,0 +1,18 @@
+.checked {
+    background-color: var(--primary-color);
+    color: var(--panel-background-color);
+    font-weight: 500;
+    box-shadow: var(--shadow-sm);
+}
+
+.checked .icon,
+.checked .smallIcon,
+.checked .buttonText {
+    color: var(--panel-background-color);
+}
+
+.checked:hover {
+    background-color: var(--primary-color);
+    opacity: 0.95;
+    transform: translateY(-1px);
+}

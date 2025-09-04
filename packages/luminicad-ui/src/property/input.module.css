@@ -1,0 +1,20 @@
+.readonly {
+    opacity: 0.56;
+}
+
+.box {
+    flex: 1;
+    font-size: 1rem;
+    padding: 4px;
+    outline: none;
+    background-color: var(--panel-background-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    margin: 0px;
+
+    &:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 2px rgba(var(--primary-color-rgb), 0.1);
+    }
+}

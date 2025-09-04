@@ -1,0 +1,41 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--panel-background-color);
+}
+
+.header {
+    margin: 2px 18px;
+    font-size: 1.15rem;
+    font-weight: bold;
+    flex: 0;
+    color: var(--text-color);
+}
+
+.panel {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    overflow-y: auto;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    background-color: var(--panel-background-color);
+    border-color: var(--border-color);
+}
+
+.rootProperties {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background-color: var(--panel-background-color);
+}
+
+.name {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+    align-items: center;
+    color: var(--text-color);
+}

@@ -1,0 +1,9 @@
+{
+    "name": "luminicad-core",
+    "version": "0.2.1-beta",
+    "description": "",
+    "main": "src/index.ts",
+    "devDependencies": {
+        "vite": "^6.0.11"
+    }
+}

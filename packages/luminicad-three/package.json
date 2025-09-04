@@ -1,0 +1,19 @@
+{
+    "name": "luminicad-three",
+    "version": "0.2.1-beta",
+    "description": "",
+    "main": "src/index.ts",
+    "devDependencies": {
+        "@types/three": "0.173.0",
+        "luminicad-core": "*",
+        "luminicad-vis": "*",
+        "three": "0.173.0",
+        "three-mesh-bvh": "0.9.0"
+    },
+    "scripts": {
+        "build": "echo 'No build needed for luminicad-three'",
+        "dev": "echo 'No dev needed for luminicad-three'",
+        "test": "echo 'No tests for luminicad-three'",
+        "lint": "echo 'No linting for luminicad-three'"
+    }
+}

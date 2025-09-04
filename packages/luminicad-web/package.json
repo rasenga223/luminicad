@@ -1,0 +1,15 @@
+{
+    "name": "luminicad-web",
+    "version": "0.2.1-beta",
+    "description": "",
+    "main": "src/index.ts",
+    "devDependencies": {
+        "luminicad-builder": "*"
+    },
+    "scripts": {
+        "build": "echo 'No build needed for luminicad-web'",
+        "dev": "echo 'No dev needed for luminicad-web'",
+        "test": "echo 'No tests for luminicad-web'",
+        "lint": "echo 'No linting for luminicad-web'"
+    }
+}

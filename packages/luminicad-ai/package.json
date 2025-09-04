@@ -1,0 +1,15 @@
+{
+    "name": "luminicad-ai",
+    "version": "0.2.1-beta",
+    "description": "AI client and prompts for LuminiCAD (no DOM).",
+    "main": "src/index.ts",
+    "devDependencies": {
+        "luminicad-core": "*"
+    },
+    "scripts": {
+        "build": "echo 'No build needed for luminicad-ai'",
+        "dev": "echo 'No dev needed for luminicad-ai'",
+        "test": "echo 'No tests for luminicad-ai'",
+        "lint": "echo 'No linting for luminicad-ai'"
+    }
+}

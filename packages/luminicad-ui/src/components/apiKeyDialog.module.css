@@ -1,0 +1,148 @@
+.dialog {
+    border: none;
+    border-radius: 12px;
+    padding: 0;
+    background: #0a2540;
+    color: white;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.2);
+    width: 65%;
+    max-width: 1200px;
+}
+
+.dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+.container {
+    padding: 48px;
+    user-select: text;
+}
+
+.header {
+    margin-bottom: 24px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    color: #e5a100;
+    letter-spacing: -0.01em;
+}
+
+.subtitle {
+    margin: 12px 0 0;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+}
+
+.inputGroup {
+    margin: 32px 0;
+    position: relative;
+}
+
+.input {
+    width: calc(100% - 36px);
+    padding: 16px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    font-size: 16px;
+    transition: all 0.2s;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    letter-spacing: 0.02em;
+    user-select: text;
+}
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-family:
+        system-ui,
+        -apple-system,
+        sans-serif;
+    letter-spacing: 0;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #e5a100;
+    background: rgba(229, 161, 0, 0.05);
+}
+
+.help {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    font-size: 15px;
+}
+
+.helpLink {
+    color: #e5a100;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 8px;
+    margin: -4px -8px;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.helpLink:hover {
+    background: rgba(229, 161, 0, 0.1);
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.button {
+    flex: 1;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    letter-spacing: -0.01em;
+}
+
+.primaryButton {
+    background: #e5a100;
+    color: #0a2540;
+}
+
+.primaryButton:hover {
+    background: #fbb100;
+    transform: translateY(-1px);
+}
+
+.primaryButton:active {
+    transform: translateY(0);
+}
+
+.primaryButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.secondaryButton {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.secondaryButton:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.secondaryButton:active {
+    background: rgba(255, 255, 255, 0.08);
+}

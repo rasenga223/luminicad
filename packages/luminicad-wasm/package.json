@@ -1,0 +1,16 @@
+{
+    "name": "luminicad-wasm",
+    "version": "0.2.1-beta",
+    "description": "",
+    "main": "src/index.ts",
+    "type": "module",
+    "devDependencies": {
+        "luminicad-core": "*"
+    },
+    "scripts": {
+        "build": "echo 'No build needed for luminicad-wasm'",
+        "dev": "echo 'No dev needed for luminicad-wasm'",
+        "test": "echo 'No tests for luminicad-wasm'",
+        "lint": "echo 'No linting for luminicad-wasm'"
+    }
+}

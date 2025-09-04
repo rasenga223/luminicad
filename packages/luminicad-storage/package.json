@@ -1,0 +1,15 @@
+{
+    "name": "luminicad-storage",
+    "version": "0.2.1-beta",
+    "description": "",
+    "main": "src/index.ts",
+    "devDependencies": {
+        "luminicad-core": "*"
+    },
+    "scripts": {
+        "build": "echo 'No build needed for luminicad-storage'",
+        "dev": "echo 'No dev needed for luminicad-storage'",
+        "test": "echo 'No tests for luminicad-storage'",
+        "lint": "echo 'No linting for luminicad-storage'"
+    }
+}

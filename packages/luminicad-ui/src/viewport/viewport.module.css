@@ -1,0 +1,70 @@
+.root {
+    position: relative;
+}
+
+.viewControls {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    pointer-events: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    svg {
+        border: none;
+        background: transparent;
+        width: 24px;
+        height: 24px;
+        padding: 8px;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        color: rgba(255, 255, 255, 0.85);
+
+        &:hover {
+            background: rgba(229, 161, 0, 0.2);
+            color: #e5a100;
+            transform: scale(1.05);
+        }
+
+        &:active {
+            background: rgba(229, 161, 0, 0.4);
+            transform: scale(0.95);
+        }
+    }
+
+    .actived {
+        background: rgba(229, 161, 0, 0.3);
+        color: #e5a100;
+    }
+
+    .border {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: rgba(10, 10, 10, 0.75);
+        backdrop-filter: blur(8px);
+        border-radius: 12px;
+        padding: 4px;
+        pointer-events: all;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+        @media (prefers-color-scheme: light) {
+            background: rgba(245, 245, 245, 0.85);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        div {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+    }
+}

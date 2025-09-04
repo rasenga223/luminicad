@@ -1,0 +1,18 @@
+{
+    "name": "luminicad",
+    "version": "0.2.1-beta",
+    "description": "",
+    "main": "src/index.ts",
+    "devDependencies": {
+        "luminicad-core": "*",
+        "luminicad-ai": "*",
+        "luminicad-geo": "*",
+        "luminicad-vis": "*"
+    },
+    "scripts": {
+        "build": "echo 'No build needed for luminicad'",
+        "dev": "echo 'No dev needed for luminicad'",
+        "test": "echo 'No tests for luminicad'",
+        "lint": "echo 'No linting for luminicad'"
+    }
+}

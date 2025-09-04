@@ -1,0 +1,74 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+/* Modern Light Theme */
+:root[theme="light"] {
+    --control-background-color: #ffffff;
+    --primary-color: #e5a100;
+    --primary-color-rgb: 37, 99, 235;
+    --secondary-color: #0a2540;
+    --foreground-color: #1f2937;
+    --border-color: #e5e7eb;
+    --background-color: #f3f4f6;
+    --panel-background-color: #ffffff;
+    --hover-background-color: rgba(0, 0, 0, 0.05);
+    --titlebar-forground-color: #1f2937;
+    --titlebar-background-color: #ffffff;
+    --statusbar-foreground-color: #4b5563;
+    --statusbar-background-color: #ffffff;
+    --viewport-background-color: #f8fafc;
+    --text-color: #1f2937;
+    --text-secondary-color: #6b7280;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --error-color: #ef4444;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --shadow-sm: 0 1px 2px 0 var(--shadow-color);
+    --shadow-md: 0 4px 6px -1px var(--shadow-color);
+}
+
+/* Modern Dark Theme */
+:root[theme="dark"] {
+    --control-background-color: #1f2937;
+    --primary-color: #e5a100;
+    --primary-color-rgb: 59, 130, 246;
+    --secondary-color: #0a2540;
+    --foreground-color: #f3f4f6;
+    --border-color: #374151;
+    --background-color: #111827;
+    --panel-background-color: #1f2937;
+    --hover-background-color: rgba(255, 255, 255, 0.05);
+    --titlebar-forground-color: #f3f4f6;
+    --titlebar-background-color: #1f2937;
+    --statusbar-foreground-color: #e5e7eb;
+    --statusbar-background-color: #1f2937;
+    --viewport-background-color: #0f172a;
+    --text-color: #f3f4f6;
+    --text-secondary-color: #d1d5db;
+    --success-color: #34d399;
+    --warning-color: #fbbf24;
+    --error-color: #f87171;
+    --shadow-color: rgba(0, 0, 0, 0.25);
+    --shadow-sm: 0 1px 2px 0 var(--shadow-color);
+    --shadow-md: 0 4px 6px -1px var(--shadow-color);
+
+    /* Additional variables for specific components */
+    --item-text-color: #f3f4f6;
+    --property-text-color: #f3f4f6;
+    --menu-text-color: #f3f4f6;
+    --input-text-color: #f3f4f6;
+    --label-text-color: #d1d5db;
+}

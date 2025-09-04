@@ -1,0 +1,41 @@
+dialog {
+    border: none;
+    box-shadow: 0px 1px 2px #999;
+    border-radius: 8px;
+    padding: 0px;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    padding: 16px;
+    font-size: medium;
+    margin: 0px auto;
+}
+
+.content {
+    padding: 0px 16px;
+    opacity: 0.56;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 8px 4px;
+
+    & button {
+        width: 64px;
+        margin: 4px;
+    }
+}

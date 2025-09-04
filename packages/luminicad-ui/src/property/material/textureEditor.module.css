@@ -1,0 +1,57 @@
+.root {
+    margin-top: 8px;
+}
+
+.expander {
+    display: flex;
+    flex-direction: row;
+}
+
+.properties {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--text-color);
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4px;
+    border-radius: 8px;
+    position: relative;
+    margin-left: 16px;
+    border: 1px solid var(--border-color);
+    background-color: var(--panel-background-color);
+
+    &:hover {
+        --delete-visiblity: visible;
+        box-shadow: var(--shadow-sm);
+    }
+
+    img {
+        width: 96px;
+        height: 96px;
+        border-radius: 4px;
+    }
+
+    svg {
+        position: absolute;
+        background-color: rgba(var(--error-color), 0.45);
+        border-radius: 50%;
+        padding: 4px;
+        top: 2px;
+        right: 2px;
+        width: 16px;
+        height: 16px;
+        visibility: var(--delete-visiblity);
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+
+        &:hover {
+            background-color: var(--error-color);
+        }
+    }
+}
